@@ -8,6 +8,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class HelloWorldController {
 	@RequestMapping(value="/welcome")
 	public ModelAndView hello() {
+		System.out.println("Controller Method()");
 		return new ModelAndView("welcome","msg","Welcome to SpringBoot");
 	}
 
