@@ -19,6 +19,7 @@ public class SpringBootHelloWorldApplication {
 	}
 
 	public void done(){
+	}
 
 	public void doProcess(){
 
