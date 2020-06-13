@@ -9,6 +9,7 @@ import org.springframework.context.annotation.ComponentScan;
 public class SpringBootHelloWorldApplication {
 		int j=20;
 	int i=10;
+	int k=30;
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootHelloWorldApplication.class, args);
 	}
